@@ -1,9 +1,13 @@
 {
-  "name": "snap-svg",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-cli-snap-svg",
+  "version": "0.1.0",
+  "description": "Brings Snag.svg into your Ember applications.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "snap-svg",
+    "snap.svg",
+    "ember snap svg",
+    "ember svg"
   ],
   "license": "MIT",
   "author": "",
@@ -18,7 +22,11 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "broccoli-funnel": "^1.1.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-htmlbars": "^1.0.10",
+    "snapsvg": "^0.5.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
